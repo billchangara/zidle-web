@@ -1,0 +1,1 @@
+export default function BlogPost() { const { id } = useParams() return <div className=" max-w-3xl mx-auto py-24 px-6 prose\><h1 className=\text-3xl font-black text-textPrimary mb-8\>Blog Post</h1><p>Post content for {id}</p><a href=\/announcements\ className=\underline\>Back to Blog</a></div>
